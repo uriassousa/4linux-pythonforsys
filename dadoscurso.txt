@@ -1,0 +1,67 @@
+usuário e senha:  sabado
+acessar:  http://dontpad.com/4linux-ps
+
+
+Checar se encontra a ova a ser importada em: 
+/home/repositorio/Python for Sysadmin/NewDeveloper.ova
+OVA: https://we.tl/t-bCOsWP1NS5
+
+*Apostila: https://we.tl/t-QvUX2Swb8d
+
+Clicar com botão direito >> importar para VirtualBox
+VM usuario: developer
+VM senha: 4linux
+
+curl -L https://dl.pstmn.io/download/latest/linux64 > postman.tar.gz
+
+//remover tudo
+rm -rf ~/521
+
+mkdir ~/521
+python3 -m venv ~/521
+source ~/521/bin/activate
+pip install requests
+deactivate
+
+mkdir -p ~/521/rest
+cd ~/521/rest
+touch {get,post,put,delete}.py
+
+//editar arquivo get.py
+
+source ~/521/bin/activate
+python3 get.py
+
+
+----------
+
+
+cd
+git clone https://github.com/hector-vido/flask-api.git
+
+su -c 'apt-get install -y python3-flask'
+cd ~/flask-api
+
+apt-get install -y sqlite3
+sqlite3 data.db < migration/init.sql
+
+python3 app.py
+
+
+https://github.com/hector-vido/flask-api
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
