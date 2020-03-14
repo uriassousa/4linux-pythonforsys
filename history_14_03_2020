@@ -1,0 +1,500 @@
+   37  blkid /dev/sdb2 | cut -d' ' -f3 | tr -d '"' >> /etc/fstab 
+   38  vim /etc/fstab
+   39  blkid /dev/sdb1 | cut -d' ' -f3 | tr -d '"' >> /etc/fstab 
+   40  vim /etc/fstab
+   41  vim /etc/initramfs-tools/conf.d/resume 
+   42  update-initramfs 
+   43  update-initramfs -u
+   44  grub-install /dev/sdb
+   45  update-grub
+   46  poweroff
+   47  exit
+   48  xrandr
+   49  dpkg -l | xorg-
+   50  dpkg -l | grep xorg-
+   51  dpkg -l | grep xorg-video
+   52  exit
+   53  clear
+   54  ls
+   55  ip a
+   56  apt update
+   57  apt install curl -y
+   58  curl viacep.com.br/ws/04101-300/json
+   59  curl viacep.com.br/ws/06864-288/json
+   60  curl 'viacep.com.br/ws/06864-288/json'
+   61  curl 'viacep.com.br/ws/06864-288/json'
+   62  curl 'viacep.com.br/ws/06864-240/json'
+   63  curl 'viacep.com.br/ws/06864-130/json'
+   64  curl -v 'viacep.com.br/ws/06864-130/json'
+   65  curl -v 'viacep.com.br/ws/06864-130/json' | more
+   66  curl -v 'viacep.com.br/ws/06864-130/json' 
+   67  curl -v 'viacep.com.br/ws/06864-130/xml'/
+   68  curl -v 'viacep.com.br/ws/06864-130/soap
+   69  curl -v 'viacep.com.br/ws/06864-130/soap'
+   70  curl -v 'viacep.com.br/ws/06864-130/soap' | more
+   71  wget https://dl.pstmn.io/download/latest/linux64 -O postman.tar.gz
+   72  ls
+   73  cd /tmp/
+   74  ls
+   75  curl -L https://dl.pstmn.io/download/latest/linux64 > postman.tar.gz
+   76  exit
+   77  exit
+   78  apt install -y python3-env
+   79  apt-get -y  install  python3-env
+   80  apt-get -y  install  python3-env
+   81  apt-get update
+   82  apt-get install -y  python3-env
+   83  apt-get install -y python3-env
+   84  apt-get install -y python3-env
+   85  python3
+   86  apt-get update
+   87  apt-get install -y python3-env
+   88  apt-get install -y python3-venv
+   89  python3 -m venv 521
+   90  source 521/bin/activate
+   91  pip install requests
+   92  exit
+   93  pip install requests
+   94  apt-get install requests
+   95  apt-get install requests
+   96  ls
+   97  ls
+   98  pwf
+   99  pwd
+  100  cd /home/
+  101  cd developer/
+  102  ls
+  103  cd 521
+  104  ls
+  105  cd rest
+  106  ls
+  107  cd ..
+  108  cd ..
+  109  apt-get install -y python3-pip
+  110  pip requests install
+  111  pip install requests
+  112  pip install 
+  113  pip3 install requests
+  114  exit
+  115  pwd
+  116  cd /home/developer/
+  117  ls
+  118  cd 521
+  119  ls
+  120  cd rest/
+  121  ls
+  122  ./get.py 
+  123  ./get.py 
+  124  ./get.py 
+  125  ./get.py 
+  126  ./get.py 
+  127  ./get.py 
+  128  ./get.py 
+  129  ./get.py 
+  130  python3 get.py 
+  131  clear
+  132  exit
+  133  cd /home/developer/
+  134  ls
+  135  cd Do
+  136  cd Downloads/
+  137  ls
+  138  dpkg --install google-chrome-stable_current_amd64.deb 
+  139  chrome
+  140  ls
+  141  dpkg --install google-chrome-stable_current_amd64.deb 
+  142  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  143  ls
+  144  apt-get install ./google-chrome-stable_current_amd64.deb 
+  145  apt-get install -y wget
+  146  apt-get --fix-broken install
+  147  apt-get install -y wget
+  148  apt-get install ./google-chrome-stable_current_amd64.deb 
+  149  apt-get remove ./google-chrome-stable_current_amd64.deb 
+  150  apt-get install ./google-chrome-stable_current_amd64.deb 
+  151  ls
+  152  rm -rf google-chrome-stable_
+  153  ls
+  154  ls
+  155  apt-get install ./google-chrome-stable_current_amd64.deb 
+  156  apt-get install ./google-chrome-stable_current_amd64.deb 
+  157  dpkg --install google-chrome-stable_current_amd64.deb 
+  158  google-chrome
+  159  google-chrome-stable 
+  160  ./google-chrome 
+  161  google-chrome 
+  162  google-chrome
+  163  exit
+  164  ssh-keygen -t rsa -b 4096 -C "uriassousa@hotmail.com"
+  165  ls
+  166  cd /root/.ssh/
+  167  ls
+  168  cat id_rsa.pub 
+  169  cd ..
+  170  ls
+  171  cd /home/developer/
+  172  ls
+  173  clear
+  174  ls
+  175  cd 521/
+  176  ls
+  177  git init
+  178  git status
+  179  git add .
+  180  git commit -m "Files Exemplos 521 Course"
+  181  git config --global user.email
+  182  git config --global user.name "Urias Sousa"
+  183  git config --global user.email "uriassousa@hotmail.com"
+  184  git config --global user.email
+  185  git commit -m "Files Exemplos 521 Course"
+  186  ls
+  187  git psuh
+  188  git push
+  189  git premote add git@github.com:uriassousa/4linux-pythonforsys.git
+  190  git premote git@github.com:uriassousa/4linux-pythonforsys.git
+  191  git remote git@github.com:uriassousa/4linux-pythonforsys.git
+  192  git remote add origin git@github.com:uriassousa/4linux-pythonforsys.git
+  193  git push
+  194  git pull
+  195  ls
+  196  git commit -m "Files Exemplos 521 Course"
+  197  git push
+  198  ls
+  199  git add .
+  200  git status
+  201  ls
+  202  touch file1.txt
+  203  git status
+  204  git add .
+  205  ls
+  206  git commit -m "Test file TXT"
+  207  git push
+  208  git push --set-upstream origin master
+  209  cat /root/.ssh/
+  210  cat /root/.ssh/id_rsa.pub 
+  211  clear
+  212  ls
+  213  git push --set-upstream origin master
+  214  ls
+  215  git status
+  216  touch .gitignore
+  217  vi .gitignore 
+  218  git status
+  219  git commit -m "Config do GitIgnore"
+  220  git push
+  221  vi .gitignore 
+  222  git push
+  223  git commit -m "Config do GitIgnore"
+  224  clear
+  225  ls
+  226  ls -la
+  227  vi .gitignore 
+  228  git commit -m "Config do GitIgnore"
+  229  git rm -r
+  230  git rm -r --cached
+  231  git rm -r --cached .
+  232  git add .
+  233  git commit -m "Config do GitIgnore"
+  234  ls
+  235  ls -la
+  236  git status
+  237  vi .gitignore 
+  238  git commit -m ".gitignore fix"
+  239  git push
+  240  vi .gitignore 
+  241  git status
+  242  cp /root/.ssh/id_* /home/developer/.ssh/
+  243  curl -X POST -d '{"nome" : "Paramahansa Yogananda"}' 'https://python.free.beeceptor.com/usuarios' -H 'Content-Type: application/json'
+  244  curl -X POST -d '{"nome" : "Paramahansa Yogananda"}' 'https://python.free.beeceptor.com/usuarios' -H 'Content-Type: application/json'
+  245  curl -X POST -d '{"nome" : "Paramahansa Yogananda "}' 'https :// python.free.beeceptor.com/usuarios ' -H
+  246   'Content -Type: application/json'
+  247  curl -X DELETE https :// python.free.beeceptor.com/usuarios?id=1
+  248  ls
+  249  git status
+  250  git add .
+  251  git commit -m "Todos os metodos"
+  252  git push
+  253  git commit -m "Todos os metodos - DADOS"
+  254  git add .
+  255  git commit -m "Todos os metodos - DADOS"
+  256  git push
+  257  git add .
+  258  git commit -m "Todos os metodos - DADOS"
+  259  git push
+  260  python3 validate.py
+  261  cd ..
+  262  ls
+  263  cd flask-api/
+  264  ls
+  265  python3 validate.py
+  266  cd ..
+  267  ls
+  268  mv flask-api/ 521/
+  269  ls
+  270  git add .
+  271  cd 521
+  272  git add .
+  273  git status
+  274  git commit -m "Flask-API"
+  275  git push
+  276  poweroff
+  277  systemctl enable docker
+  278  usermod -G docker -a developer
+  279  docker ps
+  280  docker ps
+  281  clear
+  282  docker ps
+  283  docker pull httpd:alpine
+  284  docker pull httpd
+  285  docker pull alpine:3.8
+  286  docker ps
+  287  docker images
+  288  docker images | grep 3.8
+  289  clear
+  290  docker ps
+  291  docker run -dti redis:5
+  292  docker inspect redis | grep ip
+  293  docker inspect redis 
+  294  docker ps
+  295  docker inspect redis:5 
+  296  docker inspect redis:5 | Ip
+  297  docker inspect redis:5 | ip
+  298  docker inspect redis:5 | IpA
+  299  docker inspect redis:5 
+  300  docker inspect redis:5 | more
+  301  docker inspect redis:5 | Address
+  302  docker inspect redis:5 | more
+  303* docker inspect redis:5 | mor
+  304  docker pull python:alpine:3.8
+  305  docker pull python-alpine:3.8
+  306  docker pull lpine-pyton:3.8
+  307  docker pull alpine-python:3.8
+  308  docker pull alpine-python:3.8
+  309  docker login
+  310  docker pull alpine-python:3.8
+  311  clear
+  312  docker images
+  313  docker pull python-alpine
+  314  docker pull python-alpine
+  315  docker pull python-alpine:3.8
+  316  docker images | grep python
+  317  clear
+  318  docker images | grep python
+  319  docker pull python:3.8-alpine3.11
+  320  docker ps
+  321  docker inspect redis:5
+  322  docker inspect redis:5 | more
+  323* docker
+  324  docker inspect ee3efe848006 
+  325  docker inspect ee3efe848006 | grep IPA
+  326  clear
+  327  docker inspect redis:5 | grep IPA
+  328  docker ps
+  329  docker exec -i -t 954
+  330  docker exec -i -t 954802fc31f9 /bin/bash
+  331  docker ps
+  332  docker inspect redis:5 | IPA
+  333  docker inspect 954802fc31f9 | grep IPA
+  334  docker inspect ee3efe848006 | grep IPA
+  335* netcat 172
+  336  docker inspect redis:5 | IPA
+  337  docker ps
+  338  docker inspect 954802fc31f9 | grep IPA
+  339  netcat 172.17.0.3
+  340  echo "PING" |Z nc -n 172.17.0.3
+  341  echo "PING" | nc -n 172.17.0.3 
+  342  docker inspect 954802fc31f9 | grep Port
+  343  docker inspect 954802fc31f9 | grep Ports
+  344  docker inspect 954802fc31f9 | tcp
+  345  docker inspect 954802fc31f9 | grep tct
+  346  docker inspect 954802fc31f9 | grep tcp
+  347  echo "PING" |Z nc -n 172.17.0.3 6379
+  348  echo "PING" | nc -n 172.17.0.3 6379
+  349  echo "PING" | nc -n 172.17.0.3 6379
+  350  docker ps
+  351  clera
+  352  clear
+  353  docker ps
+  354  clear
+  355  ip a
+  356  clear
+  357  run -dti --name WebServer2 -p 8080:80 httpd
+  358  docker run -dti --name WebServer2 -p 8080:80 httpd
+  359  docker ps
+  360  docker inspect WebServer2 | grep IPA
+  361  curl 172.17.0.4
+  362  docker run -dti alpine -e NOME=Python -e CATEGORIA=Sysadmin
+  363  docker ps
+  364  docker rm -f a8695a3034ae 
+  365  docker run -dti alpine -e NOME=Python -e CATEGORIA=Sysadmin Alpine
+  366  docker exec -ti alpine
+  367  docker exec -i -t  alpine
+  368  docker run -dti --name alpine -e NOME=Python -e CATEGORIA=Sysadmin Alpine
+  369  clear
+  370  docker run -dti --name alpine -e NOME=Python -e CATEGORIA=Sysadmin Alpine
+  371  docker run -dti --name alpine -e NOME=Python -e CATEGORIA=Sysadmin alpine
+  372  docker exec -ti alpine
+  373  docker exec -ti alpine /bin/bash
+  374  docker exec -i -t alpine /bin/bash
+  375  docker exec -i -t alp sh
+  376  docker exec -i -t alpine sh
+  377  docker exec -i -t alpine /bin/bash
+  378  docker exec -i -t alpine sh
+  379  docker ps
+  380  clear
+  381  ip a
+  382  clear
+  383  docker ps
+  384  docker ps -a
+  385  clear
+  386  docker ps -a
+  387  docker ps 
+  388  clear
+  389  docker ps 
+  390  mkdir -p /root/html
+  391  echo '<h1>Docker Container!</h1>' > /root/html/index.html
+  392* 
+  393  echo '<marquee><h1>Docker Container!</h1></marquee/>' >> /root/html/index.html
+  394  cat /root/html/index.html 
+  395  echo '<marquee><h1>Docker Container!</h1></marquee/>' > /root/html/index.html
+  396  cat /root/html/index.html 
+  397  docker ps
+  398  docker run -dti -p 8080:80 -v '/root/html': '/usr/local/apache2/htdocs/' httpd
+  399  docker run -dti -p 8080:80 -v /root/html: /usr/local/apache2/htdocs/ httpd
+  400  docker run -dti --name WebServer3 -p 8080:80 -v /root/html: /usr/local/apache2/htdocs/ httpd
+  401  docker run -dti --name WebServer3 -p 8080:80 -v /root/html:/usr/local/apache2/htdocs/ httpd
+  402  docker ps
+  403  clear
+  404  docker ps
+  405  vi /root/html/index.html 
+  406  vi /root/html/index.html 
+  407  vi /root/html/index.html 
+  408  vi /root/html/index.html 
+  409  docker ps
+  410  clear
+  411  docker logs apache WebServer1
+  412  docker logs apache WebServer3
+  413  docker logs WebServer3
+  414  docker logs WebServer1
+  415  docker logs WebServer2
+  416  docker logs -f WebServer3
+  417  clear
+  418  ip a
+  419  clear
+  420  docker run -dti --name mysql -e MYSQL_ROOT_PASSWORD=4linux -v mysql_data:/var/lib/mysql:5.7
+  421  docker run -dti --name mysql -e MYSQL_ROOT_PASSWORD=4linux -v mysql_data:/var/lib/mysql mysql:5.7
+  422  docker search httpd:alpine
+  423  docker search httpd:alpine:3.11
+  424  clear
+  425  docker search httpd:alpine:3.11
+  426* 
+  427  docker search httpd:alpine
+  428  clear
+  429  docker search httpd:2.4-alpine
+  430  docker pull httpd:2.4-alpine
+  431* docker run -dit --name WebServer5 -p 8090:80 
+  432  docker ps
+  433  clear
+  434  docker pull nginx:1.17-alpine
+  435  docker run -dti --name WebServer6 -p 8087:80 -v /root/html:/usr/local/apache2/htdocs/ nginx:1.17-alpine
+  436  docker exec -i -t WebServer6 /bin/bash
+  437  docker exec -i -t WebServer6 bs
+  438  docker ps
+  439  docker rm -r $(docker ps -qa)
+  440  docker rm -f $(docker ps -qa)
+  441  docker ps
+  442* docker exec -i -t WebServer6 /bin/bas
+  443  docker pull nginx:stable-alpine
+  444  docker run -dti --name WebServer6 -p 8087:80 -v /root/html:/usr/local/nginx/html nginx:stable-alpine
+  445  docker run -dti --name WebServer6 -p 8088:80 -v /root/html:/usr/share/nginx/html:ro nginx:stable-alpine
+  446  docker run -dti --name WebServer6 -p 8088:80 -v /root/html:/usr/share/nginx/html:ro nginx
+  447  docker run -dti --name WebServer6 -p 8089:80 -v /root/html:/usr/share/nginx/html:ro nginx
+  448  docker run -dti --name WebServer7 -p 8091:80 -v /root/html:/usr/share/nginx/html:ro nginx
+  449  docker ps
+  450  clear
+  451  docker
+  452  cd ~/root
+  453  cd /root/
+  454  ls
+  455  ls
+  456  pwf
+  457  pwd
+  458  cd /root/
+  459  ls
+  460  mdkir site
+  461  mkdir site
+  462  git clone https://github.com/4linux/4542-site.git ~/site
+  463  docker ps
+  464  docker rm -f $(docker ps -qa)
+  465  clear
+  466  docker run -it -rm --name site -p 8000:80 -v "$PWD:/root/site -w /usr/src/site python:3.7 
+  467  docker run -it -rm --name site -p 8000:80 -v "$PWD":/root/site -w /usr/src/site python:3.7 
+  468  docker run -it --rm --name site -p 8000:80 -v "$PWD":/root/site -w /usr/src/site python:3.7 
+  469  docker ps
+  470  docker rm -f $(docker ps -qa)
+  471  docker ps
+  472  python3 -m http.server -d site /root/html
+  473  python3 -m http.server -d site -d /root/html
+  474  python3 -m http.server -d site -d /root/site
+  475  docker ps
+  476  vi /root/site/index.html 
+  477  ls
+  478  clear
+  479  ls
+  480  docker ps
+  481  docker run -dti --name WebServer -p 8000:80 httpd python3 -m http.server -d site -d /root/site
+  482  docker run -dti --name WebServer -p 8000:80 httpd python3 -m http.server -d site -d /root/site
+  483  docker rm -f $(docker ps -qa)
+  484  docker run -dti --name WebServer -p 8000:80 httpd python3 -m http.server -d site -d /root/site
+  485  docker rm -f $(docker ps -qa)
+  486  clear
+  487  docker run -dti --name WebServer -p 8000:80 python3:3.8-alpine -m http.server -d site  /root/site
+  488  docker ps
+  489  docker run -dti --name WebServer -p 8000:80 python3:3.8-alpinepython3 -m http.server -d site /root/site
+  490  docker ps
+  491  docker run -dti --name WebServer -p 8000:80 python3:3.8-alpinepython3 -m http.server -d /root/site
+  492  docker run -dti --name WebServer -p 8000:80 python3:3.8-alpinepython3 -m http.server -d /root/site/
+  493  docker run -dti --name WebServer -p 8000:80 python3:3.8-alpine python3 -m http.server -d /root/site/
+  494  docker run -dti --name WebServer -p 8000:80 python:3.8-alpine python3 -m http.server -d /root/site/
+  495  docker run -dti --name WebServer -p 8000:80 python:3.8-alpine python3 -m http.server -d site /root/site/
+  496  docker rm -f $(docker ps -qa)
+  497  docker run -dti --name WebServer -p 8000:80 python:3.8-alpine python3 -m http.server -d site /root/site/
+  498  docker
+  499  docker ps
+  500  docker run -dti --name WebServer -p 8000:80 python:3.8-alpine python3 -m http.server -d site /root/site/
+  501  docker rm -f $(docker ps -qa)
+  502  clear
+  503* docker run -dti --name WebServer -p 8000:80 python:3.8-alpine python3 -m http.server -d /root/site/
+  504  docker rm -f $(docker ps -qa)
+  505  clear
+  506  history 
+  507  history  | more
+  508  clear
+  509  ls
+  510  docker run -d -p 8080:8000 -v /root/site/:/usr/src/site python:3.8-alpine python3 -m http.server -d /usr/src/site
+  511  docker ps
+  512  cd /root/
+  513  ls
+  514  cd 521
+  515  ls
+  516  vi aula_14_03_20
+  517  history > /root/521/
+  518  history > /root/521/history.txt
+  519  git status
+  520  git ;
+  521  git .
+  522  git init
+  523  cd ..
+  524  cd /home/developer/
+  525  ls
+  526  cd Documents/
+  527  ls
+  528  ls
+  529  cd 521
+  530  ls
+  531  ls
+  532  cd ..
+  533  ls
+  534  cd 521
+  535  git status
+  536  history > /home/developer/521/history_14_03_2020
